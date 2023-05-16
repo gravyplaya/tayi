@@ -2,10 +2,13 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "7.4.1",
         "cion/laravel-text-to-speech": "^1.5",
         "doctrine/dbal": "^3.6",
         "guzzlehttp/guzzle": "^7.2",
@@ -34,7 +37,7 @@
         "spatie/laravel-ignition": "^1.0"
     },
     "autoload": {
-         "files": [
+        "files": [
             "app/CentralLogics/helpers.php",
             "app/Helpers/general.php"
         ],
